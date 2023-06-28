@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0%; 
+    padding: 0%;    
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white
+}
+
+.logo {
+    background: #48487f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0 0 20 gray;
+}
+
+.bemvindo {
+display: flex;
+text-align: center;
+padding-top: 56px;
+-webkit-box-align: center;
+align-items: center;
+flex-direction: column;
+}
+
+.login {
+margin: 0px 0px 24px;
+font-size: 1.75rem;
+letter-spacing: 0.006rem;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+text-transform: lowercase;
+color: rgb(102, 102, 102);
+}
+
+.texto {
+font-size: 0.875rem;
+line-height: 1rem;
+text-align: center;
+letter-spacing: 0.006rem;
+width: 100%;
+max-width: 346px;
+margin: 0px;
+}
+
+p{
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+width: 450px;
+height: 450px;
+margin-left: 16px;
+margin-right: 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+box-shadow: 0 0 20px gray;
+}
+
+.email {
+padding: 5px;
+}
+
+.senha {
+padding: 5px;
+}
+
+.entrar {
+padding: 5px;
+}
+
+a {
+padding: 5px;
+color: #48487f;
+}
+
+.criar {
+padding: 5px;
+}
