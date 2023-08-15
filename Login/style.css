@@ -56,11 +56,20 @@ div.campo > label {
 }
 
 div.campo > i {
-    color: white;
-    background-color: black;
+    color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
+}
+
+div.campo > input {
+    font-size: 1em;
+    width: calc(100% -44px);
+    transform: translateY(-10px);
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
